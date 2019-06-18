@@ -1,0 +1,15 @@
+.column {
+    float: left;
+    width: 30%;
+    height: 100px;
+    background-color: #000;
+    margin: 10px;
+}
+
+@media (max-width: 992px) {
+    .column {
+        background-color: #e84610;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
